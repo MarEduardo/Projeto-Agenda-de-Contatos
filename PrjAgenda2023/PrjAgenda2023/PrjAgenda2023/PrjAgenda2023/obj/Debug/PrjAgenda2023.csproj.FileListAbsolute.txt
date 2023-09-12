@@ -1,0 +1,7 @@
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\bin\Debug\PrjAgenda2023.exe
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\bin\Debug\PrjAgenda2023.pdb
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\obj\Debug\PrjAgenda2023.csprojResolveAssemblyReference.cache
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\obj\Debug\PrjAgenda2023.FRMPRINCIPAL.resources
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\obj\Debug\PrjAgenda2023.csproj.GenerateResource.Cache
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\obj\Debug\PrjAgenda2023.exe
+C:\Users\POLIMIG\Documents\SharpDevelop Projects\PrjAgenda2023\PrjAgenda2023\obj\Debug\PrjAgenda2023.pdb
