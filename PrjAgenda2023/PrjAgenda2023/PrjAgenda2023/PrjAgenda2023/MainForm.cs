@@ -1,15 +1,8 @@
-﻿/*
- * Criado por SharpDevelop.
- * Usuário: POLIMIG
- * Data: 05/09/2023
- * Hora: 09:12
- * 
- * Para alterar este modelo use Ferramentas | Opções | Codificação | Editar Cabeçalhos Padrão.
- */
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace PrjAgenda2023
 {
@@ -28,6 +21,28 @@ namespace PrjAgenda2023
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+		}
+		
+		void SobreToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			FrmSobre fs = new FrmSobre();
+			fs.Show();
+		}
+		
+		void ToolStripButton2Click(object sender, EventArgs e)
+		{
+			FrmRelogio fr = new FrmRelogio();
+			fr.Show();
+		}
+		
+		void FRMPRINCIPALLoad(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void ToolStripButton3Click(object sender, EventArgs e)
+		{
+			Process.Start("C:/Windows/System32/Calc.exe");
 		}
 	}
 }

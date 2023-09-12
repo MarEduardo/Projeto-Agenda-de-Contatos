@@ -80,6 +80,7 @@ namespace PrjAgenda2023
 			this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
 			this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
 			this.sobreToolStripMenuItem.Text = "Sobre";
+			this.sobreToolStripMenuItem.Click += new System.EventHandler(this.SobreToolStripMenuItemClick);
 			// 
 			// sairToolStripMenuItem
 			// 
@@ -116,6 +117,7 @@ namespace PrjAgenda2023
 			this.toolStripButton2.Name = "toolStripButton2";
 			this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton2.Text = "toolStripButton2";
+			this.toolStripButton2.Click += new System.EventHandler(this.ToolStripButton2Click);
 			// 
 			// toolStripButton3
 			// 
@@ -125,11 +127,13 @@ namespace PrjAgenda2023
 			this.toolStripButton3.Name = "toolStripButton3";
 			this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
 			this.toolStripButton3.Text = "toolStripButton3";
+			this.toolStripButton3.Click += new System.EventHandler(this.ToolStripButton3Click);
 			// 
 			// FRMPRINCIPAL
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Silver;
 			this.ClientSize = new System.Drawing.Size(433, 300);
 			this.Controls.Add(this.toolStrip1);
 			this.Controls.Add(this.menuStrip1);
@@ -137,6 +141,7 @@ namespace PrjAgenda2023
 			this.Name = "FRMPRINCIPAL";
 			this.Text = "Menu Principal";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+			this.Load += new System.EventHandler(this.FRMPRINCIPALLoad);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
 			this.toolStrip1.ResumeLayout(false);
